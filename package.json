@@ -1,0 +1,15 @@
+{
+  "name": "research_projects",
+  "version": "0.0.1",
+  "description": "Research Projects. A Wordpress Plugin.",
+  "repository": "http://github.com/filosunam/research-projects",
+  "author": "Marco Godínez <markotom@gmail.com>",
+  "license": "GPLv2",
+  "readmeFilename": "README.md",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "load-grunt-tasks": "~0.1.0",
+    "grunt-wp-readme-to-markdown": "~0.2.0",
+    "grunt-release": "~0.6.0"
+  }
+}

@@ -1,0 +1,132 @@
+# Copyright (C) 2013 TODO
+# This file is distributed under the same license as the TODO package.
+msgid ""
+msgstr ""
+"Project-Id-Version: TODO 1.0.0\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/plugin-name\n"
+"POT-Creation-Date: 2013-11-23 16:07-0600\n"
+"PO-Revision-Date: 2013-11-23 16:07-0600\n"
+"Last-Translator: Marco Godínez <mgodinez@filos.unam.mx>\n"
+"Language-Team: LANGUAGE <translations@example.com >\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-KeywordsList: __;_e;_n;_x;esc_html_e;esc_html__;esc_attr_e;"
+"esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_x:1,2c;_n:1,2\n"
+"X-Poedit-Basepath: ../\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: class-research-projects.php:244 class-research-projects.php:255
+msgid "Research projects"
+msgstr "Proyectos"
+
+#: class-research-projects.php:245
+msgid "Research project"
+msgstr "Proyecto"
+
+#: class-research-projects.php:246
+msgid "Add new"
+msgstr "Añadir nuevo"
+
+#: class-research-projects.php:247
+msgid "Add new project"
+msgstr "Añadir nuevo proyecto"
+
+#: class-research-projects.php:248
+msgid "Edit project"
+msgstr "Editar proyecto"
+
+#: class-research-projects.php:249
+msgid "New project"
+msgstr "Nuevo proyecto"
+
+#: class-research-projects.php:250
+msgid "View project"
+msgstr "Ver proyecto"
+
+#: class-research-projects.php:251
+msgid "Search research projects"
+msgstr "Buscar proyectos de investigación"
+
+#: class-research-projects.php:252
+msgid "Not found research projects"
+msgstr "No se encontraron proyectos de investigación"
+
+#: class-research-projects.php:253
+msgid "Not found research projects in trash"
+msgstr "No se encontraron proyectos de investigación en la papelera"
+
+#: class-research-projects.php:293
+msgctxt "taxonomy general name"
+msgid "Categories"
+msgstr ""
+
+#: class-research-projects.php:294
+msgctxt "taxonomy singular name"
+msgid "Category"
+msgstr ""
+
+#: class-research-projects.php:295
+msgid "Search Categories"
+msgstr ""
+
+#: class-research-projects.php:296
+msgid "All Categories"
+msgstr ""
+
+#: class-research-projects.php:297 class-research-projects.php:298
+msgid "Parent Category"
+msgstr ""
+
+#: class-research-projects.php:299
+msgid "Edit Category"
+msgstr ""
+
+#: class-research-projects.php:300
+msgid "Update Category"
+msgstr ""
+
+#: class-research-projects.php:301
+msgid "Add New Category"
+msgstr ""
+
+#: class-research-projects.php:302
+msgid "New Category Name"
+msgstr ""
+
+#: class-research-projects.php:303
+msgid "Categories"
+msgstr ""
+
+#: class-research-projects.php:324
+msgid "Funding Programs"
+msgstr "Programas de financiamiento"
+
+#: class-research-projects.php:334
+msgid "Research products"
+msgstr "Productos de investigación"
+
+#: class-research-projects.php:344 views/meta_boxes/rss-link.php:1
+msgid "RSS Link"
+msgstr "Enlace RSS"
+
+#: class-research-projects.php:508
+msgid "Page Title"
+msgstr ""
+
+#: class-research-projects.php:509
+msgid "Menu Text"
+msgstr ""
+
+#: class-research-projects.php:535
+msgid "Settings"
+msgstr "Opciones"
+
+#: views/meta_boxes/funding-programs.php:3
+msgid "Add program"
+msgstr "Añadir programa"
+
+#~ msgid "Search Research Categories"
+#~ msgstr "Buscar categorías de investigación"
