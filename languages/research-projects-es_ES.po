@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: TODO 1.0.0\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tag/plugin-name\n"
-"POT-Creation-Date: 2013-11-25 00:20-0600\n"
-"PO-Revision-Date: 2013-11-25 00:20-0600\n"
+"POT-Creation-Date: 2013-11-25 01:21-0600\n"
+"PO-Revision-Date: 2013-11-25 01:22-0600\n"
 "Last-Translator: Marco Godínez <mgodinez@filos.unam.mx>\n"
 "Language-Team: LANGUAGE <translations@example.com >\n"
 "MIME-Version: 1.0\n"
@@ -59,79 +59,94 @@ msgid "Not found research projects in trash"
 msgstr "No se encontraron proyectos de investigación en la papelera"
 
 #: class-research-projects.php:260
-msgctxt "Slug URL"
-msgid "research-projects"
+msgctxt "Slug URL (single)"
+msgid "projects"
 msgstr "proyectos"
 
-#: class-research-projects.php:294
+#: class-research-projects.php:295
 msgctxt "taxonomy general name"
 msgid "Categories"
 msgstr ""
 
-#: class-research-projects.php:295
+#: class-research-projects.php:296
 msgctxt "taxonomy singular name"
 msgid "Category"
 msgstr ""
 
-#: class-research-projects.php:296
+#: class-research-projects.php:297
 msgid "Search Categories"
 msgstr ""
 
-#: class-research-projects.php:297
+#: class-research-projects.php:298
 msgid "All Categories"
 msgstr ""
 
-#: class-research-projects.php:298 class-research-projects.php:299
+#: class-research-projects.php:299 class-research-projects.php:300
 msgid "Parent Category"
 msgstr ""
 
-#: class-research-projects.php:300
+#: class-research-projects.php:301
 msgid "Edit Category"
 msgstr ""
 
-#: class-research-projects.php:301
+#: class-research-projects.php:302
 msgid "Update Category"
 msgstr ""
 
-#: class-research-projects.php:302
+#: class-research-projects.php:303
 msgid "Add New Category"
 msgstr ""
 
-#: class-research-projects.php:303
+#: class-research-projects.php:304
 msgid "New Category Name"
 msgstr ""
 
-#: class-research-projects.php:304
+#: class-research-projects.php:305
 msgid "Categories"
 msgstr ""
 
-#: class-research-projects.php:324
+#: class-research-projects.php:308
+msgctxt "Slug URL (archive)"
+msgid "projects/category"
+msgstr "proyectos/categoria"
+
+#: class-research-projects.php:325
 msgid "Funding Programs"
 msgstr "Programas de financiamiento"
 
-#: class-research-projects.php:334
+#: class-research-projects.php:335
 msgid "Research products"
 msgstr "Productos de investigación"
 
-#: class-research-projects.php:344
+#: class-research-projects.php:345
 msgid "RSS Link"
 msgstr "Enlace RSS"
 
-#: class-research-projects.php:508
+#: class-research-projects.php:509
 msgid "Page Title"
 msgstr ""
 
-#: class-research-projects.php:509
+#: class-research-projects.php:510
 msgid "Menu Text"
 msgstr ""
 
-#: class-research-projects.php:535
+#: class-research-projects.php:536
 msgid "Settings"
 msgstr "Opciones"
 
 #: views/meta_boxes/funding-programs.php:3
 msgid "Add program"
 msgstr "Añadir programa"
+
+#, fuzzy
+#~ msgctxt "Slug URL (single)"
+#~ msgid "research-projects"
+#~ msgstr "proyectos"
+
+#, fuzzy
+#~ msgctxt "Slug URL (archive)"
+#~ msgid "research"
+#~ msgstr "proyectos"
 
 #~ msgctxt "Slug URL"
 #~ msgid "proyectos"

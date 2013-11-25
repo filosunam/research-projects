@@ -257,7 +257,7 @@ class Research_Projects {
         'description'           => __('Research projects', $this->plugin_slug),
         'public'                => true,
         'rewrite' => array(
-          'slug' => _x('research-projects', 'Slug URL', $this->plugin_slug),
+          'slug' => _x('projects', 'Slug URL (single)', $this->plugin_slug),
           'with_front' => false
         ),
         'exclude_from_search'   => false,
@@ -276,6 +276,7 @@ class Research_Projects {
           'delete_post'         => 'edit_theme_options'
         ),
         'taxonomies'            => array('research_category'),
+        'has_archive'           => true,
         'hierarchical'          => false,
         'supports' => array( 'title', 'editor', 'revisions', 'thumbnail' )
       )
@@ -288,7 +289,7 @@ class Research_Projects {
    * @since    1.0.0
    */
   public function register_taxonomies () {
-    register_taxonomy('research_category', 'review', array(
+    register_taxonomy('research_category', $this->custom_post_type_slug, array(
       'hierarchical' => true,
       'labels' => array(
         'name' => _x( 'Categories', 'taxonomy general name' ),
@@ -303,9 +304,12 @@ class Research_Projects {
         'new_item_name' => __( 'New Category Name' ),
         'menu_name' => __( 'Categories' ),
       ),
+      'show_ui' => true,
+      'query_var' => true,
+      'public' => true,
       'rewrite' => array(
-        'slug' => 'research_category',
-        'with_front' => false, 
+        'slug' => _x('projects/category', 'Slug URL (archive)', $this->plugin_slug),
+        'with_front' => false,
         'hierarchical' => true
       )
     ));
