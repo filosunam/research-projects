@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: TODO 1.0.0\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tag/plugin-name\n"
-"POT-Creation-Date: 2013-11-23 16:07-0600\n"
-"PO-Revision-Date: 2013-11-23 16:07-0600\n"
+"POT-Creation-Date: 2013-11-25 00:15-0600\n"
+"PO-Revision-Date: 2013-11-25 00:15-0600\n"
 "Last-Translator: Marco Godínez <mgodinez@filos.unam.mx>\n"
 "Language-Team: LANGUAGE <translations@example.com >\n"
 "MIME-Version: 1.0\n"
@@ -18,109 +18,114 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Poedit-SearchPath-0: .\n"
 
-#: class-research-projects.php:244 class-research-projects.php:255
+#: class-research-projects.php:246 class-research-projects.php:257
 msgid "Research projects"
 msgstr "Proyectos"
 
-#: class-research-projects.php:245
+#: class-research-projects.php:247
 msgid "Research project"
 msgstr "Proyecto"
 
-#: class-research-projects.php:246
+#: class-research-projects.php:248
 msgid "Add new"
 msgstr "Añadir nuevo"
 
-#: class-research-projects.php:247
+#: class-research-projects.php:249
 msgid "Add new project"
 msgstr "Añadir nuevo proyecto"
 
-#: class-research-projects.php:248
+#: class-research-projects.php:250
 msgid "Edit project"
 msgstr "Editar proyecto"
 
-#: class-research-projects.php:249
+#: class-research-projects.php:251
 msgid "New project"
 msgstr "Nuevo proyecto"
 
-#: class-research-projects.php:250
+#: class-research-projects.php:252
 msgid "View project"
 msgstr "Ver proyecto"
 
-#: class-research-projects.php:251
+#: class-research-projects.php:253
 msgid "Search research projects"
 msgstr "Buscar proyectos de investigación"
 
-#: class-research-projects.php:252
+#: class-research-projects.php:254
 msgid "Not found research projects"
 msgstr "No se encontraron proyectos de investigación"
 
-#: class-research-projects.php:253
+#: class-research-projects.php:255
 msgid "Not found research projects in trash"
 msgstr "No se encontraron proyectos de investigación en la papelera"
 
-#: class-research-projects.php:293
+#: class-research-projects.php:260
+msgctxt "Slug URL"
+msgid "proyectos"
+msgstr "projects"
+
+#: class-research-projects.php:296
 msgctxt "taxonomy general name"
 msgid "Categories"
 msgstr ""
 
-#: class-research-projects.php:294
+#: class-research-projects.php:297
 msgctxt "taxonomy singular name"
 msgid "Category"
 msgstr ""
 
-#: class-research-projects.php:295
+#: class-research-projects.php:298
 msgid "Search Categories"
 msgstr ""
 
-#: class-research-projects.php:296
+#: class-research-projects.php:299
 msgid "All Categories"
 msgstr ""
 
-#: class-research-projects.php:297 class-research-projects.php:298
+#: class-research-projects.php:300 class-research-projects.php:301
 msgid "Parent Category"
 msgstr ""
 
-#: class-research-projects.php:299
+#: class-research-projects.php:302
 msgid "Edit Category"
 msgstr ""
 
-#: class-research-projects.php:300
+#: class-research-projects.php:303
 msgid "Update Category"
 msgstr ""
 
-#: class-research-projects.php:301
+#: class-research-projects.php:304
 msgid "Add New Category"
 msgstr ""
 
-#: class-research-projects.php:302
+#: class-research-projects.php:305
 msgid "New Category Name"
 msgstr ""
 
-#: class-research-projects.php:303
+#: class-research-projects.php:306
 msgid "Categories"
 msgstr ""
 
-#: class-research-projects.php:324
+#: class-research-projects.php:326
 msgid "Funding Programs"
 msgstr "Programas de financiamiento"
 
-#: class-research-projects.php:334
+#: class-research-projects.php:336
 msgid "Research products"
 msgstr "Productos de investigación"
 
-#: class-research-projects.php:344 views/meta_boxes/rss-link.php:1
+#: class-research-projects.php:346
 msgid "RSS Link"
 msgstr "Enlace RSS"
 
-#: class-research-projects.php:508
+#: class-research-projects.php:510
 msgid "Page Title"
 msgstr ""
 
-#: class-research-projects.php:509
+#: class-research-projects.php:511
 msgid "Menu Text"
 msgstr ""
 
-#: class-research-projects.php:535
+#: class-research-projects.php:537
 msgid "Settings"
 msgstr "Opciones"
 
