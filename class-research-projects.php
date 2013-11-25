@@ -257,7 +257,7 @@ class Research_Projects {
         'description'           => __('Research projects', $this->plugin_slug),
         'public'                => true,
         'rewrite' => array(
-          'slug' => _x('proyectos', 'Slug URL', $this->plugin_slug),
+          'slug' => _x('research-projects', 'Slug URL', $this->plugin_slug),
           'with_front' => false
         ),
         'exclude_from_search'   => false,
