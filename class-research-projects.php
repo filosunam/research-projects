@@ -206,6 +206,7 @@ class Research_Projects {
    */
   private static function single_activate() {
     // TODO: Define activation functionality here
+    flush_rewrite_rules();
   }
 
   /**
@@ -215,6 +216,7 @@ class Research_Projects {
    */
   private static function single_deactivate() {
     // TODO: Define deactivation functionality here
+    flush_rewrite_rules();
   }
 
   /**
@@ -254,12 +256,17 @@ class Research_Projects {
         ),
         'description'           => __('Research projects', $this->plugin_slug),
         'public'                => true,
-        'exclude_from_search'   => true,
-        'publicy_queryable'     => false,
+        'rewrite' => array(
+          'slug' => _x('proyectos', 'Slug URL', $this->plugin_slug),
+          'with_front' => false
+        ),
+        'exclude_from_search'   => false,
+        'publicy_queryable'     => true,
+        'query_var'             => false,
         'show_ui'               => true,
         'show_in_nav_menus'     => false,
-        'register_meta_box_cb'  => array($this, 'register_meta_boxes'),
-        'capabilities'  => array(
+        'register_meta_box_cb'  => array( $this, 'register_meta_boxes' ),
+        'capabilities' => array(
           'edit_post'           => 'edit_theme_options',
           'edit_posts'          => 'edit_theme_options',
           'edit_others_posts'   => 'edit_theme_options',
@@ -270,12 +277,7 @@ class Research_Projects {
         ),
         'taxonomies'            => array('research_category'),
         'hierarchical'          => false,
-        'supports' => array(
-          'title',
-          'editor',
-          'revisions',
-          'thumbnail'
-        )
+        'supports' => array( 'title', 'editor', 'revisions', 'thumbnail' )
       )
     );
   }
@@ -301,12 +303,11 @@ class Research_Projects {
         'new_item_name' => __( 'New Category Name' ),
         'menu_name' => __( 'Categories' ),
       ),
-
       'rewrite' => array(
         'slug' => 'research_category',
         'with_front' => false, 
         'hierarchical' => true
-      ),
+      )
     ));
   }
 
