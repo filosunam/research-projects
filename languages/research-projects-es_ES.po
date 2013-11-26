@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: TODO 1.0.0\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tag/plugin-name\n"
-"POT-Creation-Date: 2013-11-25 01:21-0600\n"
-"PO-Revision-Date: 2013-11-25 01:22-0600\n"
+"POT-Creation-Date: 2013-11-25 18:09-0600\n"
+"PO-Revision-Date: 2013-11-25 18:10-0600\n"
 "Last-Translator: Marco Godínez <mgodinez@filos.unam.mx>\n"
 "Language-Team: LANGUAGE <translations@example.com >\n"
 "MIME-Version: 1.0\n"
@@ -60,8 +60,8 @@ msgstr "No se encontraron proyectos de investigación en la papelera"
 
 #: class-research-projects.php:260
 msgctxt "Slug URL (single)"
-msgid "projects"
-msgstr "proyectos"
+msgid "research/projects"
+msgstr "investigacion/proyectos"
 
 #: class-research-projects.php:295
 msgctxt "taxonomy general name"
@@ -101,47 +101,51 @@ msgstr ""
 msgid "New Category Name"
 msgstr ""
 
-#: class-research-projects.php:305
+#: class-research-projects.php:305 templates/archive.php:16
 msgid "Categories"
 msgstr ""
 
-#: class-research-projects.php:308
+#: class-research-projects.php:311
 msgctxt "Slug URL (archive)"
-msgid "projects/category"
-msgstr "proyectos/categoria"
+msgid "research/projects/category"
+msgstr "investigacion/proyectos/categoria"
 
-#: class-research-projects.php:325
+#: class-research-projects.php:328
 msgid "Funding Programs"
 msgstr "Programas de financiamiento"
 
-#: class-research-projects.php:335
+#: class-research-projects.php:338
 msgid "Research products"
 msgstr "Productos de investigación"
 
-#: class-research-projects.php:345
+#: class-research-projects.php:348
 msgid "RSS Link"
 msgstr "Enlace RSS"
 
-#: class-research-projects.php:509
+#: class-research-projects.php:512
 msgid "Page Title"
 msgstr ""
 
-#: class-research-projects.php:510
+#: class-research-projects.php:513
 msgid "Menu Text"
 msgstr ""
 
-#: class-research-projects.php:536
+#: class-research-projects.php:539
 msgid "Settings"
 msgstr "Opciones"
+
+#: templates/archive.php:63
+msgctxt "Slug URL (archive)"
+msgid "projects/category"
+msgstr "proyectos/categoria"
 
 #: views/meta_boxes/funding-programs.php:3
 msgid "Add program"
 msgstr "Añadir programa"
 
-#, fuzzy
 #~ msgctxt "Slug URL (single)"
-#~ msgid "research-projects"
-#~ msgstr "proyectos"
+#~ msgid "projects"
+#~ msgstr "investigacion/proyectos"
 
 #, fuzzy
 #~ msgctxt "Slug URL (archive)"

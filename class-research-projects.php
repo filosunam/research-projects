@@ -257,7 +257,7 @@ class Research_Projects {
         'description'           => __('Research projects', $this->plugin_slug),
         'public'                => true,
         'rewrite' => array(
-          'slug' => _x('projects', 'Slug URL (single)', $this->plugin_slug),
+          'slug' => _x('research/projects', 'Slug URL (single)', $this->plugin_slug),
           'with_front' => false
         ),
         'exclude_from_search'   => false,
@@ -308,7 +308,7 @@ class Research_Projects {
       'query_var' => true,
       'public' => true,
       'rewrite' => array(
-        'slug' => _x('projects/category', 'Slug URL (archive)', $this->plugin_slug),
+        'slug' => _x('research/projects/category', 'Slug URL (archive)', $this->plugin_slug),
         'with_front' => false,
         'hierarchical' => true
       )
